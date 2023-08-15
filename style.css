@@ -29,6 +29,10 @@
   background-color: black;
 }
 
+.navbar > * {
+  width: 33%;
+}
+
 .btn-wrapper {
   display: flex;
   align-items: center;
@@ -69,4 +73,12 @@
   background: radial-gradient(yellowgreen, olivedrab);
   border-color: olivedrab;
   color: white;
+}
+
+input[type="search"] {
+  width: 100%;
+  padding: 0.25rem 0.35rem;
+  font-size: 1.1rem;
+  border: 1px solid yellowgreen;
+  border-radius: 0.5rem;
 }
