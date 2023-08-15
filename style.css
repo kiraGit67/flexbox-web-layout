@@ -20,3 +20,40 @@
 .container * {
   border: 1px solid black;
 }
+
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  background-color: black;
+}
+
+.btn {
+  width: 2.5rem;
+  aspect-ratio: 1;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.btn:first-of-type {
+  background: radial-gradient(red, darkred);
+  border-color: darkred;
+  color: white;
+}
+
+.btn:nth-of-type(2) {
+  background: radial-gradient(yellow, gold);
+  border-color: gold;
+}
+
+.btn:last-of-type {
+  background: radial-gradient(yellowgreen, olivedrab);
+  border-color: olivedrab;
+  color: white;
+}
