@@ -81,4 +81,10 @@ input[type="search"] {
   font-size: 1.1rem;
   border: 1px solid yellowgreen;
   border-radius: 0.5rem;
+  color: darkgreen;
+  accent-color: darkgreen;
+}
+
+input[type="search"]:focus {
+  outline: 1px solid yellowgreen;
 }
