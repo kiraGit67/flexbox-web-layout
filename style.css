@@ -30,6 +30,22 @@ main {
   flex-grow: 1;
 }
 
+h2,
+h3,
+h4 {
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 1.75rem;
+  color: darkgreen;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: green;
+}
+
 p {
   margin-bottom: 0.75rem;
 }
@@ -106,4 +122,33 @@ footer {
   min-height: 2rem;
   background-color: green;
   flex-shrink: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.25rem 0.75rem;
+}
+
+footer > * {
+  width: 33%;
+}
+
+.foot-column:first-of-type {
+  text-align: left;
+}
+
+.foot-column:nth-of-type(2) {
+  text-align: center;
+}
+
+.foot-column:last-of-type {
+  text-align: right;
+}
+
+.foot-column > h4 {
+  font-size: 1.35rem;
+  color: yellow;
+  line-height: 2;
+}
+
+.foot-column > p {
+  color: white;
 }
